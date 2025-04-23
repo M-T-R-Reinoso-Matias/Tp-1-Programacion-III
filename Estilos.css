@@ -2,8 +2,26 @@
 body {
     padding: 2rem;
     text-align: center;
-  }
+}
 
+a {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  background-color: #050000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+a:hover {
+  background-color: #fa0202;
+  color: #fff;
+transition: background-color 0.3s ease;
+}
 
 /* Estilo solo para index.html */
 body.index {
@@ -14,6 +32,16 @@ body.index {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+img{
+  width: 30%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border: 22px solid black;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
 }
 
 /* Estilo solo para Portafolio.html */
@@ -25,13 +53,16 @@ body.Portafolio {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}
-
-
-
-a#Volver-a-inicio-P{
-    display: block;
-    margin: 50px auto;
+img{
+      width: 30%;
+      height: auto;
+      margin: auto;
+      display: block;
+      border: 22px solid black;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
 }
 
 /* Estilo solo para Sobre-mi.html */
@@ -41,8 +72,8 @@ body.Sobre-mi {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-  }
+    font-family: Arial, sans-serif; 
+}
 
 .mi-tabla {
     width: 30%;
@@ -53,14 +84,5 @@ body.Sobre-mi {
     font-size: 18px;
     padding: 10px;
     text-align: center;
-  }
-
-a {
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
 }
-
 
