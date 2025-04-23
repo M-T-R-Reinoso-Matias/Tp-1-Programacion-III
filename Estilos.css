@@ -5,16 +5,16 @@ body {
 }
 
 a {
-  display: block;
-  margin: 10px auto;
-  width: 200px;
+  margin: 30px;
+  display: inline-block;
+  text-align: center;
   background-color: #050000;
   color: #fff;
   padding: 10px;
   text-decoration: none;
   border-radius: 50px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 35px;
   transition: background-color 0.3s ease;
 }
 a:hover {
@@ -33,7 +33,7 @@ body.index {
     padding: 0;
     font-family: Arial, sans-serif;
 img{
-  width: 30%;
+  width: 20%;
   height: auto;
   margin: auto;
   display: block;
@@ -54,7 +54,7 @@ body.Portafolio {
     padding: 0;
     font-family: Arial, sans-serif;
 
-.contenedor{
+.contenedor-img{
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -62,9 +62,9 @@ body.Portafolio {
   padding: 40px;
 }
 .img{
-  width: 41%;      /* o cualquier tamaño fijo que quieras */
-  height: 400px;     /* así se igualan completamente */
-  object-fit: cover; /* esto hace que se recorten proporcionalmente si no coinciden */
+  width: 41%;
+  height: 400px;
+  object-fit: cover;
   border: 22px solid black;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
