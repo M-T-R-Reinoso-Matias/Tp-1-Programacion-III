@@ -5,16 +5,17 @@ body {
 }
 
 a {
-  margin: 30px;
+  margin: 20px 35px;
   display: inline-block;
   text-align: center;
   background-color: #050000;
-  color: #fff;
-  padding: 10px;
+  color: white;
+  padding: 1px 70px;
   text-decoration: none;
   border-radius: 50px;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 1.5em;
+  font-family: Roboto, sans-serif;
   transition: background-color 0.3s ease;
 }
 a:hover {
@@ -92,4 +93,3 @@ body.Sobre-mi {
     padding: 10px;
     text-align: center;
 }
-
