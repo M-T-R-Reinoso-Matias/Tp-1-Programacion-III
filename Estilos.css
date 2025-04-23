@@ -1,4 +1,12 @@
-body{
+/* Estilos en General */
+body {
+    padding: 2rem;
+    text-align: center;
+  }
+
+
+/* Estilo solo para index.html */
+body.index {
     background-color:bisque;
     color: #333;
     font-size: 16px;
@@ -7,3 +15,52 @@ body{
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
+/* Estilo solo para Portafolio.html */
+body.Portafolio {
+    background-color: bisque;
+    color: #0e0101;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+a#Volver-a-inicio-P{
+    display: block;
+    margin: 50px auto;
+}
+
+/* Estilo solo para Sobre-mi.html */
+body.Sobre-mi {
+    background-color: bisque;
+    color: #0a0000;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.mi-tabla {
+    width: 30%;
+    margin: 20px auto;
+    color: black;
+    border: 2px solid black;
+    border-color: black;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
