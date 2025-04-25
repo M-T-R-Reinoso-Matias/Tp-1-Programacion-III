@@ -2,15 +2,85 @@
 body {
     padding: 2rem;
     text-align: center;
+    p{
+      font-size: 1.5em;
+      font-family: Roboto, sans-serif;
+      color: #333;
+      margin: auto;
+      padding: auto;
+      text-align: center;
+      font-weight: bold;
+    }
+    ul{
+      list-style-type: none;
+      padding: auto;
+      margin: auto;
+      font-size: 1.5em;
+      font-family: Roboto, sans-serif;
+      color: #333;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      font-weight: bold;
+     }
+    li{
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      background-color: #022e2e;
+      color: white;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 22px;
+      font-family: Roboto, sans-serif;
+      transition: background-color 0.3s ease;
+    }
+    h1{
+      font-size: 3em;
+      font-family: Roboto, sans-serif;
+      color: #f86706;
+      margin: auto;
+      padding: 10px 3px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-color: #9b8316;
+      text-decoration-thickness: 2px;
+      text-decoration-style: wavy;
+      text-underline-offset: 7px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+h2{
+  font-size: 2em;
+  font-family: Roboto, sans-serif;
+  color: #f86706;
+  margin: auto;
+  padding: 10px 3px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #9b8316;
+  text-decoration-thickness: 2px;
+  text-decoration-style: wavy;
+  text-underline-offset: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  font-weight: bold;
+  
+}
 }
 
 a {
-  margin: 20px 35px;
+  margin: auto 20px;
   display: inline-block;
   text-align: center;
   background-color: #050000;
   color: white;
-  padding: 1px 70px;
+  padding: 1px 20px;
   text-decoration: none;
   border-radius: 50px;
   font-weight: bold;
@@ -30,8 +100,8 @@ body.index {
     color: #333;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     font-family: Arial, sans-serif;
 img{
   width: 20%;
@@ -42,6 +112,24 @@ img{
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
+}
+span{
+  color: rgb(1, 5, 0);
+  font-size: auto;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  margin: auto;
+  padding: auto;
+  text-decoration: underline;
+  text-decoration-color: #9b8316;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.3s ease;
+  &:hover {
+    text-decoration-color: #fa0202;
+    transition: text-decoration-color 0.3s ease;
+  }
 }
 }
 
